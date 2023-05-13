@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  user-select: none;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20rem;
+  height: 25rem;
+  background-color: black;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.result {
+  width: 16rem;
+  height: 3.5rem;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.container > .result {
+  text-align: right;
+}
+
+.inputs {
+  height: 15rem;
+  width: 16rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0.25rem;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
