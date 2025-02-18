@@ -1,0 +1,20 @@
+{
+  "name": "calculator2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "jsdom": "^26.0.0"
+  },
+  "devDependencies": {
+    "jest-environment-jsdom": "^29.7.0",
+    "text-encoding": "^0.7.0"
+  }
+}
